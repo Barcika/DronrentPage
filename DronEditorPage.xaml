@@ -1,0 +1,47 @@
+﻿<Page x:Class="DronrentPage.DronEditorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DronrentPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="250" d:DesignWidth="400"
+      d:Background="White"
+      Title="DronEditorPage">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="1*"/>
+            
+        </Grid.ColumnDefinitions>
+        <Label     Grid.Row="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Content="Please, write the corect datas!" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Producer"/>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Type"/>
+        <TextBlock Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Range"/>
+        <TextBlock Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Text="PurposeUse"/>
+        <TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="TimeEntry"/>
+        <TextBox        Grid.Row="1" Grid.Column="1" Margin="2.5" x:Name="TB_Producer"/>
+        <TextBox        Grid.Row="2" Grid.Column="1" Margin="2.5" x:Name="TB_Type"/>
+        <TextBox        Grid.Row="3" Grid.Column="1" Margin="2.5" x:Name="TB_Range"/>
+        <TextBox        Grid.Row="4" Grid.Column="1" Margin="2.5" x:Name="TB_PurposeUse"/>
+        <DatePicker     Grid.Row="5" Grid.Column="1" Margin="2.5" x:Name="DP_TimeEntry"/>
+        <Grid Grid.Row="6" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="BTN_Save" Grid.Column="0" Content="Save" Margin="2.5"/>
+            <Button x:Name="BTN_Cancel" Grid.Column="1" Content="Cancel" Margin="2.5"/>
+        </Grid>
+    </Grid>
+</Page>

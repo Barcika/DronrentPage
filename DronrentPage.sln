@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DronrentPage", "DronrentPage.csproj", "{5A7DAEB6-D0BA-4BA9-AC98-F038B594700C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDEF1A16-DF1C-48AF-A916-94631C5F7871}"
+	ProjectSection(SolutionItems) = preProject
+		Kérdések.txt = Kérdések.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A7DAEB6-D0BA-4BA9-AC98-F038B594700C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7DAEB6-D0BA-4BA9-AC98-F038B594700C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7DAEB6-D0BA-4BA9-AC98-F038B594700C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7DAEB6-D0BA-4BA9-AC98-F038B594700C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {754B150D-DBF0-4AB1-98D1-02FD76469D81}
+	EndGlobalSection
+EndGlobal

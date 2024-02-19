@@ -1,0 +1,32 @@
+﻿<Page x:Class="DronrentPage.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DronrentPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Dron List">
+
+    <Grid Background="White" Margin="2.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Content="DronList" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="2.5"/>
+        <ListBox x:Name="LB_DronList" Grid.Row="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="2.5"/>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column = "0" Content="New Dron Add" x:Name="BTN_NewDron" Margin="2.5"/>
+            <Button Grid.Column = "1" Content="Edit Dron" x:Name="BTN_EditDron" Margin="2.5"/>
+            <Button Grid.Column = "2" Content="Delete Dron" x:Name="BTN_DelDron" Margin="2.5"/>
+            <!--A contentbe teszem a megjelenítendő szöveget a gombon, ha egy tagban van a button - két tag esetén a két tag közé, az x:Name -ben megadott névre pedig a programban tudok hivatkozni-->
+
+        </Grid>
+    </Grid>
+</Page>

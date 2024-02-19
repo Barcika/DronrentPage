@@ -1,0 +1,3 @@
+Miért csak a konstruktorban tudom a mainPage-t definiálni?
+Pontosan miért nem lehet click esemény a gombnál, a MainPage.xaml-ban? A Page maga nem teszi lehetõvé? Próbáltam kihámozni, de nem ment       
+var page = new DronEditorPage();  Miért szedtük szét két sorra? nem volt jó a MainFrame.Content = new DronEditorPage();
